@@ -1,0 +1,11 @@
+{
+  "name": "automacao-api-postman-newman",
+  "version": "1.0.0",
+  "description": "Automação de APIs DummyJSON com Postman e Newman",
+  "scripts": {
+    "test:api": "newman run dummyjson.postman_collection.json -e dummyjson.postman_environment.json"
+  },
+  "devDependencies": {
+    "newman": "^6.2.1"
+  }
+}
